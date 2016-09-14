@@ -13,8 +13,8 @@
   <triggers class="vector"/>
   <concurrentBuild>false</concurrentBuild>
   <builders>
-    <hudson.tasks.Ant>
-      <targets></targets>
+    <hudson.tasks.Ant plugin="ant@1.4">
+      <targets>build-parallel</targets>
     </hudson.tasks.Ant>
   </builders>
   <publishers>
